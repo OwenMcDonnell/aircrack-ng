@@ -25,12 +25,12 @@ environment:
     COMPILER: gcc
   - TARGET: cygwin64
     COMPILER: gcc
-  - TARGET: cygwin
-    COMPILER: clang
-  - TARGET: cygwin64
-    COMPILER: clang
-  - TARGET: msys64
-  - TARGET: pkg
+  #- TARGET: cygwin
+    #COMPILER: clang
+ # - TARGET: cygwin64
+   # COMPILER: clang
+  #- TARGET: msys64
+  #- TARGET: pkg
 
 matrix:
   fast_finish: true
