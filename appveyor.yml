@@ -89,7 +89,7 @@ install:
       #downloadIfOlderThanDays "https://cygwin.com/setup-x86_64.exe" "${env:AIRCRACK_CI_CACHE}\setup-x86_64.exe" 7
       
       #updateCygwin "${env:AIRCRACK_CI_CACHE}\setup-x86_64.exe" C:/cygwin64 $env:CYG_CACHE
-      updateCygwin C:\cygwin\setup-x86_64.exe C:/cygwin64 $env:CYG_CACHE
+      updateCygwin C:\cygwin64\setup-x86_64.exe C:/cygwin64 $env:CYG_CACHE
     }
 
 - ps: |
